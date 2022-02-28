@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Sound Recognition App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+         <div>
+            <center>
+            <h1>Sound controlled animals</h1>
+            <h5>Note:Play different sounds like barking and meowing</h5>
+            </center>
+         </div>
+        <br><br><br><br>
+        <div>
+            <center>
+                <button class="btn btn-success" id="start" onclick="startClassification();">Start</button>
+                <h4 id="result_count"></h4>
+                <h3 id="result_label">I can hear - </h3>
+                <br><br>
+                <img id="result_image" src="Hearing gif.gif" height="300" width="200">
+            </center>
+        </div>
+    </body>
+</html>
